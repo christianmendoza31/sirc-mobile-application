@@ -1,0 +1,41 @@
+SIRC MOBILE APPlICATION
+created by: CHRISTIAN MENDOZA
+powered by: MIT APP INVENTOR 2
+
+The application is primarily created as BMI(BODY MASS INDEX)calculator.
+The application gets the initial data from user consist of HEIGHT(inches) and WEIGHT(pounds).
+
+the application uses 6 primary component:
+  1. result output text(txtResult)
+  2. height input label(lblHeight)
+  3. height input text(txtHeight)
+  4. weight input label(lblWeight)
+  5. weight input text(txtWeight)
+  6. calculate button(btnCalculate)
+
+the application uses 5 variable as temporary data.
+
+*heightVal
+  this corresponds to the initial data that the user input on (txtHeight) textbox.
+  
+*weightVal
+  this corresponds to the initial data that the user input on (txtWeight) textbox.
+
+*convertedHeightVal
+  this corresponds to the converted value of (txtHeight).
+    (convertedHeightVal = heightVal * heightVal)
+    
+*calculatedHeightWeightVal
+  this variable corresponds to the initial calculated value of (weightVal) and (convertedHeightVal).
+    (calculatedHeightWeightVal = weightVal / convertedHeightVal)
+    
+*result
+  this variable correspons to the final calculation of (calculatedHeightweightVal) converted to final result.
+    (result = calculatedHeightWeightVal * 703)
+      the number (703) is a default value for body mass index calculation if using (inches) and (pounds)
+      
+      
+      
+      
+  
+
