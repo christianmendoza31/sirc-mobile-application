@@ -1,1 +1,5 @@
 # sirc-mobile-application
+
+CHRISTIAN MENDOZA
+BSIT 4B
+SIRC MOBILE APPLICATION
